@@ -30,3 +30,7 @@ Arrays can be used to store linear data of similar types, but arrays have the fo
 ### Advantages over arrays
 1) Dynamic size
 2) Ease of insertion/deletion
+
+## Hash Map
+
+ the structure set, which provides in/contains operation in \mathcal{O}(1)O(1) time in average case.
