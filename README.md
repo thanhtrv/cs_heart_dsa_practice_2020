@@ -1,6 +1,10 @@
 # quarantine2020
 This is repository for storing what I did to practice my problem solving skills for DSA problems during the staying at home during Covid 19. 
 
+# Time Complexity Resource - details comparisions
+
+https://www.bigocheatsheet.com/
+
 # Data Structure Reviews
 ## Directe access tables 
 Direct access tables are very simple data structures which can store data in key value pair form. But it does not work in all the cases. It works only when the keys are integers which are drawn from a set of m elements. Let's say a set of integers from zero to m minus one. Another assumption is that each of the keys that we use is unique. For example, no two records can have the same key value. This is very easy to implement. We just use a regular area of size m. So that its index ranges from zero to m minus one, and the index of the area can be used for the key, and the satellite data corresponding to that key may be stored at that particular index. So we can think of it that we have a set of distinct keys which may range from zero to m minus one and the data associated with the key can be inserted or searched or deleted directly using the index of the area which is equal to that key. What about if the key set is very large? Well, then we need a very large area, right? Or, even worse, what if the key data set is not very large, but the range of values is very large? 
