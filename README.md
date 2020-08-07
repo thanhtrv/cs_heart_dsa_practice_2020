@@ -42,3 +42,15 @@ Arrays can be used to store linear data of similar types, but arrays have the fo
 In the case of HashMap, it replaces the old value with the new one.
 
 In the case of HashSet, the item isn't inserted.
+
+# Notes by categories
+## Array problems
+### 217. Contains Duplicate
+#### 75 blind list
+
+From Approach #1 we know that **search operations is O(n) in an unsorted array and we did so repeatedly**. Utilizing a data structure with faster search time will speed up the entire algorithm.
+
+There are many data structures commonly used as dynamic sets such as Binary Search Tree and Hash Table. 
+The operations we need to support here are search() and insert(). **For a self-balancing Binary Search Tree (TreeSet or TreeMap in Java), search() and insert() are both O(\log n)O(logn) time.** 
+For a **Hash Table (HashSet or HashMap in Java), search() and insert() are both O(1)O(1) on average**. Therefore, by using hash table, we can achieve linear time complexity for finding the duplicate in an unsorted array.
+
