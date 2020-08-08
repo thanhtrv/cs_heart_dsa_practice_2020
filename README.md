@@ -44,6 +44,13 @@ In the case of HashMap, it replaces the old value with the new one.
 In the case of HashSet, the item isn't inserted.
 
 ## Tree / BST
+### Need to know about Binary Tree
+```
+Understand the difference between different tree traversal methods;
+Be able to solve preorder, inorder and postorder traversal recursively;
+Be able to solve preorder, inorder and postorder traversal iteratively;
+Be able to do level traversal using BFS
+```
 
 ***Depth of recursion is n => O(n) for space complexity
 
