@@ -43,6 +43,13 @@ In the case of HashMap, it replaces the old value with the new one.
 
 In the case of HashSet, the item isn't inserted.
 
+## Tree / BST
+
+### DFS depth first search
+
+
+### BFS breath first search
+
 # Notes by categories
 
 
