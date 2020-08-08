@@ -13,6 +13,8 @@ For a **Hash Table (HashSet or HashMap in Java), search() and insert() are both 
 
 Since comparison sorting algorithm like heapsort is known to provide O(n \log n)O(nlogn) worst-case performance ```Array.sort() ```
 
+For certain test cases with not very large nn, the runtime of this method can be slower than Approach #2. The reason is hash table has some overhead in maintaining its property. One should keep in mind that real world performance can be different from what the Big-O notation says. The Big-O notation only tells us that for sufficiently large input, one will be faster than the other. Therefore, when nn is not sufficiently large, an O(n)O(n) algorithm can be slower than an O(n \log n)O(nlogn) algorithm.
+
 - [x] [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)
 - [x] [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
 - [x] [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)
