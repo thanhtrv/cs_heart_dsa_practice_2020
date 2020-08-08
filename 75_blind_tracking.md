@@ -11,6 +11,8 @@ There are many data structures commonly used as dynamic sets such as Binary Sear
 The operations we need to support here are search() and insert(). **For a self-balancing Binary Search Tree (TreeSet or TreeMap in Java), search() and insert() are both O(\log n)O(logn) time.** 
 For a **Hash Table (HashSet or HashMap in Java), search() and insert() are both O(1)O(1) on average**. Therefore, by using hash table, we can achieve linear time complexity for finding the duplicate in an unsorted array.****
 
+Since comparison sorting algorithm like heapsort is known to provide O(n \log n)O(nlogn) worst-case performance ```Array.sort() ```
+
 - [x] [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)
 - [x] [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
 - [x] [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)
