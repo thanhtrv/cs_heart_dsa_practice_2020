@@ -45,6 +45,8 @@ In the case of HashSet, the item isn't inserted.
 
 ## Tree / BST
 
+***Depth of recursion is n => O(n) for space complexity
+
 ### DFS depth first search
 
 
