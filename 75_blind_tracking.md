@@ -11,7 +11,10 @@ There are many data structures commonly used as dynamic sets such as Binary Sear
 The operations we need to support here are search() and insert(). **For a self-balancing Binary Search Tree (TreeSet or TreeMap in Java), search() and insert() are both O(\log n)O(logn) time.** 
 For a **Hash Table (HashSet or HashMap in Java), search() and insert() are both O(1)O(1) on average**. Therefore, by using hash table, we can achieve linear time complexity for finding the duplicate in an unsorted array.****
 
-Since comparison sorting algorithm like heapsort is known to provide O(n \log n)O(nlogn) worst-case performance ```Array.sort() ```
+Since comparison sorting algorithm like heapsort is known to provide O(n \log n)O(nlogn) worst-case performance ```Array.sort() ```https://stackabuse.com/sorting-algorithms-in-java/#sortinginjava
+Collection.sort() works by calling the underlying Arrays.sort() method, while the sorting itself uses Insertion Sort for arrays shorter than 47, and Quicksort for the rest.
+
+It's based on a specific two-pivot implementation of Quicksort which ensures it avoids most of the typical causes of degradation into quadratic performance, according to the JDK10 documentation.
 
 For certain test cases with not very large nn, the runtime of this method can be slower than Approach #2. The reason is hash table has some overhead in maintaining its property. One should keep in mind that real world performance can be different from what the Big-O notation says. The Big-O notation only tells us that for sufficiently large input, one will be faster than the other. Therefore, when nn is not sufficiently large, an O(n)O(n) algorithm can be slower than an O(n \log n)O(nlogn) algorithm.
 
