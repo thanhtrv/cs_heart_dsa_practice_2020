@@ -24,6 +24,11 @@ constant time lookup and insertion is required
 cryptographic applications
 indexing data is required
 
+## Recursive approach notes
+
+```
+Space complexity : O(n). The extra space comes from implicit stack space due to recursion. The recursion could go up to n levels deep.
+```
 ## Linked List
 
 ### Why Linked List?
