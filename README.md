@@ -28,6 +28,8 @@ indexing data is required
 
 ```
 Space complexity : O(n). The extra space comes from implicit stack space due to recursion. The recursion could go up to n levels deep.
+or 
+Space complexity : The number of recursive calls is bound by the height of the tree. In the worst case, the tree is linear and the height is in  O ( n ) O(n). Therefore, space complexity due to recursive calls on the stack is  O ( n ) O(n) in the worst case.
 ```
 ## Linked List
 
