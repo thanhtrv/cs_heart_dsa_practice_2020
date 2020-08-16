@@ -1,4 +1,4 @@
-# leetcode notes (notes is not relatively organised!)
+# leetcode notes (notes is not relatively organised!).
 This is repository for storing what I did to practice my problem solving skills for DSA problems during the staying at home during Covid 19. 
 
 # Time Complexity Resource - details comparisions
