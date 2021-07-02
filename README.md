@@ -5,7 +5,7 @@ This is repository for storing what I did to practice my problem solving skills 
 
 https://www.bigocheatsheet.com/
 
-# Data Structure Reviews
+# Data Structures Reviews
 ## String
 ### Sliding Window
 [x] A sliding window is an abstract concept commonly used in array/string problems
