@@ -1,11 +1,12 @@
-# Be a better programmer with DSA (notes are not relatively organised!).
-This is repository for storing what I did to practice my problem solving skills for DSA problems during the staying at home during Covid 19. 
+# Be a better programmer!
 
 # Time Complexity Resource - details comparisions
 
 https://www.bigocheatsheet.com/
 
-# Data Structures Reviews
+# Data Structures & Algorithms Reviews
+## Array
+2 pointer techniques
 ## String
 ### Sliding Window
 [x] A sliding window is an abstract concept commonly used in array/string problems
