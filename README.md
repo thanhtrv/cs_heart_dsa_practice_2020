@@ -6,7 +6,7 @@ https://www.bigocheatsheet.com/
 
 # Data Structures & Algorithms Reviews
 ## Array
-2 pointer techniques
+2 pointer techniques e.g. 4 sums, valid triangles, etc.
 ## String
 ### Sliding Window
 [x] A sliding window is an abstract concept commonly used in array/string problems
